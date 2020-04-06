@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written by: Erick Cobos Tandazo (a01184587@itesm.mx)
+% Date: 7-April-2014
+%
+% Project proposal for my Master's thesis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}	% Spanish accents
+\usepackage{proposalEMCT} 	% Title pages and overall format
+\usepackage{verbatim} 		% Block Comm\usepackage{textcomp}ents
+\usepackage{textcomp}		% For the degree sign(°)
+\usepackage{hyperref}		% To manage \url and citations as links to the reference part.
+\usepackage{subcaption}		% For subfigure in breastcancer.tex
+\usepackage{amssymb}		% For R (real numbers) symbol, among others.
+\usepackage{amsmath}		% Add text to math and further math equations.
+\usepackage{lscape}		% For vertical tables
+
+% Set properties of the document
+\propautor{Erick Michael Cobos Tandazo}	% Author name
+\propautormat{1184587}			% Author ID number
+\propmes{Jun 25}			% Date (month)
+\propanio{2015}				% Year
+\propcd{Monterrey, N.L.}		% Place
+\proptitulo{Early Detection and Diagnosis of Breast Cancer Lesions in Digital Mammograms using Deep Convolutional Networks}	% Title
+\propasesor{Dr.~Hugo Terashima Mar\'{i}n}	% Advisor
+\propsinodalA{Por definir}		% First supervisor
+\propsinodalB{Por definir}		% Second supervisor.
+\propdirectorPG{Dr.~Ram\'{o}n Brena Pinero}	% Program Director
+\propPG{Engineering and Sciences}		% School/Department
+\propcampus{Monterrey}			% University Campus
+\propgrado{Master of Science}		% Academic degree
+\propgradosiglas{M.Sc.}			% Academic degree abbreviation
+\propespecialidad{Intelligent Systems}	% Subject
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+\propportada                        % Genera la portada.
+\proppagfirmas                      % Genera la pagina de firmas.
+\thispagestyle{empty}
+\tableofcontents                    % Genera indice general.
+\newpage
+\sloppy
+\newpage
+\pagenumbering{arabic}
+
+\begin{abstract}
+\begin{comment}
+Breast cancer is one of the most common and deadliest cancer for woman around the world. The best tools used today for early breast cancer diagnosis are screening mammograms; mammograms are x-ray pictures of the breast used by radiologists to identify microcalcifications and breast masses, signs of early breast cancer development. Traditional computer systems use complex image techniques and handcrafted features to detect these lesions in mammographic images. In this work, we plan to use convolutional networks, a recent development in machine learning, which can automatically learn the relevant features for the classification task given enough training data. Convolutional networks have been used in a few studies for breast cancer detection but we hope to introduce newer features and carefully tune the architecture to produce improved results. Additionally, this will be the first approximation to use deep learning techniques as part of an ongoing project in the institution which aims to develop a computer-aided diagnosis system for breast cancer. This thesis proposal is presented for approval to obtain the degree of Master of Science in Intelligent Systems.
+\end{comment}
+Breast cancer is one of the most common and deadliest cancer in women but early diagnosis can greatly increase its survival rate.
+Computer-aided detection (CADe) and diagnosis (CADx) assist doctors in the search of microcalcifications and masses, signs of early breast cancer. 
+We plan to apply convolutional networks to mammograms, x-ray pictures of the breast, to automatically detect these lessions. 
+Convolutional networks are a recent development in machine learning that learn the relevant features for classification from data; in contrast, traditional techniques use complex handcrafted features.
+A few studies have used convolutional networks for breast cancer detection but we plan to introduce newer features and carefully tune the architecture to produce improved results.
+Additionally, this will be the first approximation to use deep learning techniques as part of an ongoing project in the institution that aims to develop a CAD system for breast cancer.
+This thesis proposal is presented for approval to obtain the degree of Master of Science in Intelligent Systems.
+%Keywords: convolutional neural  networks, breast cancer, CAD, mammograms
+\end{abstract}
+
+\section{Introduction}
+\input{introduction}
+
+\section{Problem Statement and Motivation}
+\label{sec:ProblemDefinition}
+\input{problem}
+
+\section{Objectives}
+\label{sec:Objectives}
+\input{objectives}
+
+\section{Hypothesis}
+\label{sec:Hypothesis}
+\input{hypotheses}
+
+\section{Background}
+\label{sec:Background}
+We offer an introduction to some of the essential concepts needed to understand the rest of this document. We start by discussing breast cancer and mammograms in Section~\ref{subsec:BreastCancer}, we explore some basic concepts about classification and evaluation metrics in Section~\ref{subsec:Classification}, in Sections~\ref{subsec:ANNs} and~\ref{subsec:ConvNets} we give a short introduction into Artificial Neural Networks and Convolutional Neural Networks, we present an overview of how convolutional networks have been used for breast cancer diagnosis in Section~\ref{subsec:BreastCancerConvNets} and finally we offer some practical advice for deep learning in Section~\ref{subsec:PracticalDL}.
+
+	\subsection{Breast Cancer}
+	\label{subsec:BreastCancer}
+	\input{breastcancer}
+
+	\subsection{Classification}
+	\label{subsec:Classification}
+	\input{classification}
+
+	\subsection{Artificial Neural Networks}
+	\label{subsec:ANNs}
+	\input{neuralnetworks}
+
+	\subsection{Convolutional Networks}
+	\label{subsec:ConvNets}
+	\input{convnets}
+
+	\subsection{Convolutional Networks applied to Breast Cancer}
+	\label{subsec:BreastCancerConvNets}
+	\input{convnets4brca}
+
+	\subsection{Practical Deep Learning}
+	\label{subsec:PracticalDL}
+	\input{practicalDL}
+
+\section{Methodology}
+\label{sec:Methodology}
+\input{methodology}
+
+\section{Work Plan}
+\label{sec:WorkPlan}
+\input{workplan}
+
+% Bibliography
+\bibliographystyle{apalike}
+\bibliography{bibliography}
+
+\end{document} 

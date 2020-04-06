@@ -1,0 +1,95 @@
+\contentsline {chapter}{Abstract}{v}{figure.caption.1}
+\contentsline {chapter}{List of Figures}{vi}{chapter*.2}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problem Definition}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Hypothesis}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Research Questions}{4}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Methodology}{5}{section.1.5}
+\contentsline {section}{\numberline {1.6}Contributions}{5}{section.1.6}
+\contentsline {section}{\numberline {1.7}Outline of the thesis}{6}{section.1.7}
+\contentsline {section}{\numberline {1.8}Summary}{6}{section.1.8}
+\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Classification}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Artificial Neural Networks}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Convolutional Networks}{13}{section.2.3}
+\contentsline {paragraph}{Convolutional layer}{14}{section*.10}
+\contentsline {paragraph}{ReLU layer}{15}{section*.12}
+\contentsline {paragraph}{Pooling layer}{15}{section*.13}
+\contentsline {paragraph}{Fully connected layer}{16}{section*.14}
+\contentsline {section}{\numberline {2.4}Image Segmentation}{17}{section.2.4}
+\contentsline {section}{\numberline {2.5}Practical Deep Learning}{19}{section.2.5}
+\contentsline {paragraph}{Image preprocessing}{19}{section*.18}
+\contentsline {paragraph}{Convolutional network architecture}{19}{section*.19}
+\contentsline {paragraph}{Hyperparameters}{20}{section*.20}
+\contentsline {paragraph}{Training}{21}{section*.21}
+\contentsline {paragraph}{Sanity checks}{22}{section*.22}
+\contentsline {paragraph}{Image segmentation}{23}{section*.23}
+\contentsline {paragraph}{Data augmentation}{23}{section*.24}
+\contentsline {paragraph}{Unbalanced data}{24}{section*.25}
+\contentsline {paragraph}{Software}{24}{section*.26}
+\contentsline {section}{\numberline {2.6}Breast Cancer}{25}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Mammograms}{25}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Mammographic databases}{27}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Convolutional Networks in Breast Cancer Research}{27}{section.2.7}
+\contentsline {paragraph}{Overview}{27}{section*.30}
+\contentsline {subsection}{\numberline {2.7.1}Detection of breast masses}{28}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Detection of microcalcifications}{29}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Diagnosis of breast masses}{30}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}Tissue segmentation}{30}{subsection.2.7.4}
+\contentsline {section}{\numberline {2.8}Summary}{34}{section.2.8}
+\contentsline {chapter}{\numberline {3}Solution}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Task definition}{35}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data set}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Database}{36}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Data division}{36}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Image enhancement (Exp. 1.3 and Exp. 3)}{36}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Resizing}{37}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Cropping}{37}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Data augmentation}{37}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Storage}{37}{subsection.3.2.7}
+\contentsline {section}{\numberline {3.3}Model 1}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Architecture}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Regularization}{39}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Loss function}{39}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Experiments}{39}{subsection.3.3.4}
+\contentsline {subsubsection}{Experiment 1.1}{39}{section*.35}
+\contentsline {subsubsection}{Experiment 1.2}{39}{section*.36}
+\contentsline {subsubsection}{Experiment 1.3}{39}{section*.37}
+\contentsline {section}{\numberline {3.4}Model 2}{39}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Architecture}{40}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Regularization}{40}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Loss function}{40}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Experiments}{40}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Model 3}{41}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Architecture}{41}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Regularization}{41}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Loss function}{41}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Experiments}{41}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Training}{42}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Hardware}{42}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Software}{42}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Initialization}{42}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Hyperparameter search}{42}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}Optimization}{42}{subsection.3.6.5}
+\contentsline {section}{\numberline {3.7}Evaluation}{43}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Post-processing}{43}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Segmentation}{43}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Metrics}{43}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}Summary}{44}{section.3.8}
+\contentsline {chapter}{\numberline {4}Results}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hyperparameter Search}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experiments}{45}{section.4.2}
+\contentsline {section}{\numberline {4.3}Discussion}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary}{48}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Future Work}{49}{section.5.1}
+\contentsline {chapter}{\numberline {A}Examples}{50}{appendix.A}
+\contentsline {section}{\numberline {A.1}Example 1}{51}{section.A.1}
+\contentsline {section}{\numberline {A.2}Example 2}{52}{section.A.2}
+\contentsline {section}{\numberline {A.3}Example 3}{53}{section.A.3}
+\contentsline {section}{\numberline {A.4}Example 4}{54}{section.A.4}
+\contentsline {section}{\numberline {A.5}Example 5}{55}{section.A.5}
+\contentsline {chapter}{Bibliography}{62}{appendix*.56}

@@ -1,0 +1,47 @@
+\chapter{Background}
+\label{ch:Background}
+We offer an introduction to some of the essential concepts needed to understand this document. 
+We explore classification in Section~\ref{sec:Classification}, introduce artificial neural networks and convolutional networks in Sections~\ref{sec:ANNs} and~\ref{sec:ConvNets}, address image segmentation in Section~\ref{sec:Segmentation}, offer advice to deep learning practitioners in Section~\ref{sec:PracticalDL}, discuss breast cancer in Section~\ref{sec:BreastCancer} and review the use of convolutional networks in breast cancer research in Section~\ref{sec:BreastCancerConvNets}.
+
+\begin{comment}
+We start exploring basic concepts about classification and evaluation metrics in Section~\ref{sec:Classification}, Sections~\ref{sec:ANNs} and~\ref{sec:ConvNets} introduce artificial neural networks and convolutional networks, image segmentation is discussed in Section~\ref{sec:Segmentation}, Section~\ref{sec:PracticalDL} offers advice to deep learning practitioners, Section~\ref{sec:BreastCancer} adresses breast cancer and mammography and, lastly, Section~\ref{sec:BreastCancerConvNets} overviews how convolutional networks have been used in breast cancer research.
+
+We start exploring basic concepts about classification and evaluation metrics (Sec.~\ref{sec:Classification}), introduce artificial neural networks (Sec.~\ref{sec:ANNs})cand convolutional networks (Sec.~\ref{sec:ConvNets}), discuss image segmentation (Sec.~\ref{sec:Segmentation}), offer advice to deep learning practitioners (Sec.~\ref{sec:PracticalDL}), adress breast cancer and mammography (Sec.~\ref{sec:BreastCancer}) and, lastly, overview how convolutional networks have been used in breast cancer research (Sec.~\ref{sec:BreastCancerConvNets}).
+
+%Old
+We offer an introduction to some of the essential concepts needed to understand the rest of this document. We start by discussing breast cancer and mammograms in Section~\ref{sec:BreastCancer}, we explore some basic concepts about classification and evaluation metrics in Section~\ref{sec:Classification}, in Sections~\ref{sec:ANNs} and~\ref{sec:ConvNets} we give a short introduction into artificial neural networks and convolutional networks, image segmentation is adressed in Section~\ref{sec:Segmentation}, we offer advice for deep learning practitioners in Section~\ref{sec:PracticalDL} and, finally, we present an overview of how convolutional networks have been used for breast cancer research in Section~\ref{sec:BreastCancerConvNets}.
+\end{comment}
+
+
+\section{Classification}
+\label{sec:Classification}
+\input{background/classification}
+
+\section{Artificial Neural Networks}
+\label{sec:ANNs}
+\input{background/neuralnetworks}
+
+\section{Convolutional Networks}
+\label{sec:ConvNets}
+\input{background/convnets}
+
+\section{Image Segmentation}
+\label{sec:Segmentation}
+\input{background/segmentation} 
+
+\section{Practical Deep Learning}
+\label{sec:PracticalDL}
+\input{background/practicalDL}
+
+\section{Breast Cancer}
+\label{sec:BreastCancer}
+\input{background/breastcancer}
+
+\section{Convolutional Networks in Breast Cancer Research}
+\label{sec:BreastCancerConvNets}
+\input{background/convnets4brca}
+
+\section{Summary}
+Machine learning studies mathematical models and the algorithms used to estimate their parameters from data. A machine learning model especially suited to images, convolutional networks, has produced state-of-the-art results in a variety of computer vision tasks, including image segmentation---assigning a class to each pixel in an image.
+%Training big convolutional networks from little data, however, involves many practicalities.
+Breast cancer detection can be framed as segmentation by assigning breast cancer lesions (breast masses and microcalcifications) to the positive class and normal breast tissue to the negative class; convolutional networks can then be used to separate lesions from normal breast tissue. Use of convolutional networks for similar tasks has been reported in the literature but this work will be the first report of end-to-end lesion segmentation.

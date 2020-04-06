@@ -1,0 +1,474 @@
+\begin{thebibliography}{10}
+
+\bibitem{Abadi2015}
+{\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
+  Corrado, G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I.,
+  Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur,
+  M., Levenberg, J., Mané, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+  Vanhoucke, V., Vasudevan, V., Viégas, F., Vinyals, O., Warden, P.,
+  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.}
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from \url{tensorflow.org}.
+
+\bibitem{ACS2014}
+{\sc {American Cancer Society}}.
+\newblock Mammograms and other breast imaging tests.
+\newblock electronic, Atlanta, GA, 2014.
+\newblock Available online on
+  \url{cancer.org/acs/groups/cid/documents/webcontent/003178-pdf.pdf}.
+
+\bibitem{ACS2015}
+{\sc {American Cancer Society}}.
+\newblock {\em Cancer Facts \& Figures 2015}.
+\newblock American Cancer Society, Atlanta, GA, 2015.
+\newblock Available online on
+  \url{cancer.org/acs/groups/content/@editorial/documents/document/acspc-044552.pdf}.
+
+\bibitem{Arevalo2016}
+{\sc Arevalo, J., González, F.~A., Ramos-Pollán, R., Oliveira, J.~L., and
+  Guevara~Lopez, M.~A.}
+\newblock Representation learning for mammography mass lesion classification
+  with convolutional neural networks.
+\newblock {\em Computer Methods and Programs in Biomedicine\/} (2016).
+
+\bibitem{Ashraf2013}
+{\sc Ashraf, A.~B., Gavenonis, S.~C., Daye, D., Mies, C., Rosen, M.~A., and
+  Kontos, D.}
+\newblock A multichannel markov random field framework for tumor segmentation
+  with an application to classification of gene expression-based breast cancer
+  recurrence risk.
+\newblock {\em Medical Imaging, IEEE Transactions on 32}, 4 (April 2013),
+  637--648.
+
+\bibitem{Bastien2012}
+{\sc Bastien, F., Lamblin, P., Pascanu, R., Bergstra, J., Goodfellow, I.~J.,
+  Bergeron, A., Bouchard, N., and Bengio, Y.}
+\newblock Theano: new features and speed improvements.
+\newblock Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop,
+  2012.
+
+\bibitem{Bengio2012}
+{\sc Bengio, Y.}
+\newblock Practical recommendations for gradient-based training of deep
+  architectures.
+\newblock {\em CoRR abs/1206.5533\/} (2012).
+\newblock Available online on \url{http://arxiv.org/abs/1206.5533}.
+
+\bibitem{Bengio2014}
+{\sc Bengio, Y.}
+\newblock Deep learning workshop.
+\newblock online, April 2014.
+\newblock Available on \url{youtu.be/JuimBuvEWBg}.
+
+\bibitem{Bergstra2012}
+{\sc Bergstra, J., and Bengio, Y.}
+\newblock Random search for hyper-parameter optimization.
+\newblock {\em J. Machine Learning Research 13}, 1 (February 2012), 281--305.
+
+\bibitem{Bergstra2010}
+{\sc Bergstra, J., Breuleux, O., Bastien, F., Lamblin, P., Pascanu, R.,
+  Desjardins, G., Turian, J., Warde-Farley, D., and Bengio, Y.}
+\newblock Theano: a {CPU} and {GPU} math expression compiler.
+\newblock In {\em Proceedings of the Python for Scientific Computing Conference
+  ({SciPy})\/} (June 2010).
+\newblock Oral Presentation.
+
+\bibitem{Bishop1995}
+{\sc Bishop, C.~M.}
+\newblock {\em Neural Networks for Pattern Recognition}.
+\newblock Oxford University Press, Inc., New York, NY, USA, 1995.
+
+\bibitem{BCSC2013}
+{\sc {Breast Cancer Surveillance Consortium}}.
+\newblock Performance measures for 1,838,372 screening mammography examinations
+  from 2004 to 2008 by age--based on {BCSC} data through 2009.
+\newblock electronic, September 2013.
+\newblock Available online on
+  \url{breastscreening.cancer.gov/statistics/performance/screening/2009/perf_age.html}.
+
+\bibitem{Cawley2010}
+{\sc Cawley, G.~C., and Talbot, N.~L.}
+\newblock On over-fitting in model selection and subsequent selection bias in
+  performance evaluation.
+\newblock {\em J. Machine Learning Research 11\/} (August 2010), 2079--2107.
+
+\bibitem{Chakraborty2013}
+{\sc Chakraborty, D.~P.}
+\newblock A brief history of free-response receiver operating characteristic
+  paradigm data analysis.
+\newblock {\em Academic Radiology 20}, 7 (2013), 915 -- 919.
+
+\bibitem{Chen2015}
+{\sc Chen, L., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A.~L.}
+\newblock Semantic image segmentation with deep convolutional nets and fully
+  connected {CRF}s.
+\newblock {\em CoRR abs/1412.7062\/} (2015).
+\newblock Available online on \url{arxiv.org/abs/1412.7062}.
+
+\bibitem{Collobert2011}
+{\sc Collobert, R., Kavukcuoglu, K., and Farabet, C.}
+\newblock Torch7: A matlab-like environment for machine learning.
+\newblock In {\em BigLearn, NIPS Workshop\/} (2011).
+
+\bibitem{Davis2006}
+{\sc Davis, J., and Goadrich, M.}
+\newblock The relationship between precision-recall and roc curves.
+\newblock In {\em Proceedings of the 23rd International Conference on Machine
+  Learning\/} (New York, NY, USA, 2006), ICML '06, ACM, pp.~233--240.
+
+\bibitem{Dieleman2015}
+{\sc Dieleman, S., Willett, K.~W., and Dambre, J.}
+\newblock Rotation-invariant convolutional neural networks for galaxy
+  morphology prediction.
+\newblock {\em Monthly Notices of the Royal Astronomical Society\/} (2015).
+\newblock Available online on \url{arxiv.org/abs/1503.07077}.
+
+\bibitem{Dubrovina2015}
+{\sc Dubrovina, A., Kisilev, P., Ginsburg, B., and Hashoul, S.}
+\newblock Computational mammography using deep neural networks.
+\newblock In {\em MICCAI-2015 Proc. Deep Learning in Medical Image Analisys
+  ({DLMIA})\/} (2015).
+
+\bibitem{Fukushima1980}
+{\sc Fukushima, K.}
+\newblock Neocognitron: A self-organizing neural network model for a mechanism
+  of pattern recognition unaffected by shift in position.
+\newblock {\em Biological Cybernetics 36\/} (1980), 193--202.
+\newblock PMID: 7370364.
+
+\bibitem{Ge2007}
+{\sc Ge, J., Hadjiiski, L.~M., Sahiner, B., Wei, J., Helvie, M.~A., Zhou, C.,
+  and Chan, H.-P.}
+\newblock Computer-aided detection system for clustered microcalcifications:
+  comparison of performance on full-field digital mammograms and digitized
+  screen-film mammograms.
+\newblock {\em Physics in Medicine and Biology 52}, 4 (2007), 981.
+
+\bibitem{Ge2006}
+{\sc Ge, J., Sahiner, B., Hadjiiski, L.~M., Chan, H.-P., Wei, J., Helvie,
+  M.~A., and Zhou, C.}
+\newblock Computer aided detection of clusters of microcalcifications on full
+  field digital mammograms.
+\newblock {\em Medical Physics 33}, 8 (2006), 2975--2988.
+
+\bibitem{Gurcan2002}
+{\sc Gurcan, M.~N., Chan, H.-P., Sahiner, B., Hadjiiski, L., Petrick, N., and
+  Helvie, M.~A.}
+\newblock Optimal neural network architecture selection: Improvement in
+  computerized detection of microcalcifications.
+\newblock {\em Academic Radiology 9}, 4 (2002), 420 -- 429.
+
+\bibitem{He2015b}
+{\sc He, K., Zhang, X., Ren, S., and Sun, J.}
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR abs/1512.03385\/} (2015).
+\newblock Available online on \url{arxiv.org/abs/1512.03385}.
+
+\bibitem{He2015a}
+{\sc He, K., Zhang, X., Ren, S., and Sun, J.}
+\newblock Delving deep into rectifiers: Surpassing human-level performance on
+  imagenet classification.
+\newblock {\em CoRR abs/1502.01852\/} (2015).
+\newblock Available online on {http://arxiv.org/abs/1502.01852}.
+
+\bibitem{Heath2001}
+{\sc Heath, M., Bowyer, K., Kopans, D., Moore, R., and Kegelmeyer, W.~P.}
+\newblock The digital database for screening mammography.
+\newblock In {\em Proceedings of the Fifth International Workshop on Digital
+  Mammography\/} (2001), M.~Yaffe, Ed., Medical Physics Publishing,
+  pp.~212--218.
+
+\bibitem{Howlader2014}
+{\sc Howlader, N., Noone, A.~M., Krapcho, M.~F., Garshell, J., Miller, D.~A.,
+  Altekruse, S.~F., Kosary, C.~L., Yu, M., Ruhl, J., Tatalovich, Z., Mariotto,
+  A.~B., Lewis, D.~R., Chen, H.~S., Feuer, E.~J., and Cronin, K.~A.}
+\newblock {SEER} cancer statistics review, 1975-2011.
+\newblock review, National Cancer Institute, Bethesda, MD, April 2014.
+\newblock Available online on \url{seer.cancer.gov/csr/1975_2011/}.
+
+\bibitem{Ioffe2015}
+{\sc Ioffe, S., and Szegedy, C.}
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock {\em CoRR abs/1502.03167\/} (2015).
+\newblock Available online on \url{arxiv.org/abs/1502.03167}.
+
+\bibitem{Jia2014}
+{\sc Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick,
+  R.~B., Guadarrama, S., and Darrell, T.}
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock {\em CoRR abs/1408.5093\/} (2014).
+
+\bibitem{Karpathy2016}
+{\sc Karpathy, A.}
+\newblock Convolutional neural networks for visual recognition course.
+\newblock online, February 2016.
+\newblock Available on \url{cs231n.github.io}.
+
+\bibitem{Kerlikowske2011}
+{\sc Kerlikowske, K., Hubbard, R.~A., Miglioretti, D.~L., Geller, B.~M.,
+  Yankaskas, B.~C., Lehman, C.~D., Taplin, S.~H., and Sickles, E.~A.}
+\newblock Comparative effectiveness of digital versus film-screen mammography
+  in community practice in the united states: A cohort study.
+\newblock {\em Annals of Internal Medicine 155}, 8 (2011), 493--502.
+
+\bibitem{Kingma2014}
+{\sc Kingma, D.~P., and Ba, J.}
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR abs/1412.6980\/} (2014).
+\newblock Available online on \url{arxiv.org/abs/1412.6980}.
+
+\bibitem{Krizhevsky2012}
+{\sc Krizhevsky, A., Sutskever, I., and Hinton, G.~E.}
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems 25},
+  F.~Pereira, C.~Burges, L.~Bottou, and K.~Weinberger, Eds. Curran Associates,
+  Inc., 2012, pp.~1097--1105.
+
+\bibitem{LeCun1998}
+{\sc LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P.}
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE 86}, 11 (November 1998), 2278--2324.
+
+\bibitem{Lehman2015}
+{\sc Lehman, C.~D., Wellman, R.~D., Buist, D.~S., Kerlikowske, K., Tosteson,
+  A.~N., and Miglioretti, D.~L.}
+\newblock Diagnostic accuracy of digital screening mammography with and without
+  computer-aided detection.
+\newblock {\em JAMA Internal Medicine 175}, 11 (2015), 1828--1837.
+
+\bibitem{Linnainmaa1970}
+{\sc Linnainmaa, S.}
+\newblock The representation of the cumulative rounding error of an algorithm
+  as a taylor expansion of the local rounding errors.
+\newblock Master's thesis, University of Helsinki, Helsinki, Finland, 1970.
+
+\bibitem{Lo1995}
+{\sc Lo, S.-C.~B., Chan, H.-P., Lin, J.-S., Li, H., Freedman, M.~T., and Mun,
+  S.~K.}
+\newblock Artificial convolution neural network for medical image pattern
+  recognition.
+\newblock {\em Neural Networks 8}, 7–8 (1995), 1201 -- 1214.
+\newblock Automatic Target Recognition.
+
+\bibitem{Lo1998}
+{\sc Lo, S.-C.~B., Lin, J.-S.~J., Freedman, M.~T., and Mun, S.~K.}
+\newblock Application of artificial neural networks to medical image pattern
+  recognition: Detection of clustered microcalcifications on mammograms and
+  lung cancer on chest radiographs.
+\newblock {\em Journal of VLSI signal processing systems for signal, image and
+  video technology 18}, 3 (1998), 263--274.
+
+\bibitem{Long2015}
+{\sc Long, J., Shelhamer, E., and Darrell, T.}
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock {\em CVPR\/} (November 2015).
+\newblock Available on \url{arxiv.org/abs/1411.4038}.
+
+\bibitem{McCulloch1943}
+{\sc McCulloch, W.~S., and Pitts, W.}
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock {\em Bulletin of Mathematical Biophysics 5\/} (1943), 115--133.
+
+\bibitem{Moura2013b}
+{\sc Moura, D.~C., and Guevara~López, M.~A.}
+\newblock An evaluation of image descriptors combined with clinical data for
+  breast cancer diagnosis.
+\newblock {\em International Journal of Computer Assisted Radiology and Surgery
+  8}, 4 (2013), 561--574.
+
+\bibitem{Moura2013a}
+{\sc Moura, D.~C., López~Guevara, M.~A., Cunha, P., González~de Posada, N.,
+  Ramos-Pollan, R., Ramos, I., Pinheiro~Loureiro, J., Moreira, I.~C.,
+  Ferreira~Araújo, B.~M., and Cardoso~Fernandes, T.}
+\newblock Benchmarking datasets for breast cancer computer-aided diagnosis
+  ({CAD}x).
+\newblock In {\em Progress in Pattern Recognition, Image Analysis, Computer
+  Vision, and Applications: 18th Iberoamerican Congress, CIARP 2013\/} (Berlin,
+  Heidelberg, November 2013), J.~Ruiz-Shulcloper and G.~Sanniti~di Baja, Eds.,
+  Springer Berlin Heidelberg, pp.~326--333.
+
+\bibitem{NCI2012}
+{\sc {National Cancer Institute}}.
+\newblock What you need to know about breast cancer.
+\newblock electronic, Bethesda, MD, August 2012.
+\newblock Available online on
+  \url{cancer.gov/publications/patient-education/WYNTK_breast.pdf}.
+
+\bibitem{NCI2014}
+{\sc {National Cancer Institute}}.
+\newblock Mammograms.
+\newblock electronic, March 2014.
+\newblock Available online on
+  \url{cancer.gov/cancertopics/types/breast/mammograms-fact-sheet}.
+
+\bibitem{Nepomuceno2011}
+{\sc Nepomuceno~Matheus, B.~R., and Schiabel, H.}
+\newblock Online mammographic images database for development and comparison of
+  cad schemes.
+\newblock {\em Journal of Digital Imaging 24}, 3 (2011), 500--506.
+
+\bibitem{Ng2014}
+{\sc Ng, A.}
+\newblock Machine learning course.
+\newblock online, December 2014.
+\newblock Available online on \url{coursera.org/course/ml}.
+
+\bibitem{Oeffinger2015}
+{\sc Oeffinger, K.~C., Fontham, E.~T., Etzioni, R., and et~al}.
+\newblock Breast cancer screening for women at average risk: 2015 guideline
+  update from the american cancer society.
+\newblock {\em Journal of the American Medical Association 314}, 15 (2015),
+  1599--1614.
+
+\bibitem{Ozgur2005}
+{\sc \"{O}zg\"{u}r, A., \"{O}zg\"{u}r, L., and G\"{u}ng\"{o}r, T.}
+\newblock Text categorization with class-based and corpus-based keyword
+  selection.
+\newblock In {\em Proceedings of the 20th International Conference on Computer
+  and Information Sciences\/} (Berlin, Heidelberg, 2005), ISCIS'05,
+  Springer-Verlag, pp.~606--615.
+
+\bibitem{Petersen2014}
+{\sc Petersen, K., Nielsen, M., Diao, P., Karssemeijer, N., and Lillholm, M.}
+\newblock Breast tissue segmentation and mammographic risk scoring using deep
+  learning.
+\newblock In {\em Breast Imaging: 12th International Workshop, IWDM 2014\/}
+  (June 2014), H.~Fujita, T.~Hara, and C.~Muramatsu, Eds., Springer
+  International Publishing, pp.~88--94.
+
+\bibitem{Pisano2008}
+{\sc Pisano, E.~D., Hendrick, R., Yaffe, M.~J., Baum, J.~K., Acharyya, S.,
+  Cormack, J.~B., Hanna, L.~A., Conant, E.~F., Fajardo, L.~L., Bassett, L.~W.,
+  D'Orsi, C.~J., Jong, R.~A., Rebner, M., Tosteson, A.~N., and Gatsonis, C.~A.}
+\newblock Diagnostic accuracy of digital versus film mammography: Exploratory
+  analysis of selected population subgroups in {DMIST}.
+\newblock {\em Radiology 246}, 2 (2008), 376--383.
+\newblock PMID: 18227537.
+
+\bibitem{Provost2000}
+{\sc Provost, F.}
+\newblock Machine learning from imbalanced data sets 101.
+\newblock {\em Proceedings of the AAAI-2000 Workshop on Imbalanced Data Sets\/}
+  (2000).
+
+\bibitem{Rosenblatt1962}
+{\sc Rosenblatt, F.}
+\newblock {\em Principles of neurodynamics: perceptrons and the theory of brain
+  mechanisms}.
+\newblock Report (Cornell Aeronautical Laboratory). Spartan Books, 1962.
+
+\bibitem{Rumelhart1986}
+{\sc Rumelhart, D.~E., Hinton, G.~E., and Williams, R.~J.}
+\newblock Learning internal representations by error propagation.
+\newblock In {\em Parallel Distributed Processing: Explorations in the
+  Microstructure of Cognition, Vol. 1}, D.~E. Rumelhart, J.~L. McClelland, and
+  C.~PDP Research~Group, Eds. MIT Press, Cambridge, MA, 1986, pp.~318--362.
+
+\bibitem{Russakovsky2015}
+{\sc Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S.,
+  Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.~C., and Fei-Fei,
+  L.}
+\newblock {ImageNet Large Scale Visual Recognition Challenge}.
+\newblock {\em International Journal of Computer Vision (IJCV) 115}, 3 (2015),
+  211--252.
+\newblock Available online on \url{arxiv.org/abs/1409.0575}.
+
+\bibitem{Sahiner1996}
+{\sc Sahiner, B., Chan, H.-P., Petrick, N., Wei, D., Helvie, M.~A., Adler,
+  D.~D., and Goodsitt, M.~M.}
+\newblock Classification of mass and normal breast tissue: A convolution neural
+  network classifier with spatial domain and texture images.
+\newblock {\em IEEE Transactions on Medical Imaging 15}, 5 (October 1996),
+  598--610.
+
+\bibitem{Simonyan2014}
+{\sc Simonyan, K., and Zisserman, A.}
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em CoRR abs/1409.1556\/} (2014).
+\newblock Available online on \url{arxiv.org/abs/1409.1556}.
+
+\bibitem{Skaane2007}
+{\sc Skaane, P., Hofvind, S., and Skjennald, A.}
+\newblock Randomized trial of screen-film versus full-field digital mammography
+  with soft-copy reading in population-based screening program: Follow-up and
+  final results of oslo {II} study.
+\newblock {\em Radiology 244}, 3 (2007), 708--717.
+\newblock PMID: 17709826.
+
+\bibitem{Springenberg2014}
+{\sc Springenberg, J.~T., Dosovitskiy, A., Brox, T., and Riedmiller, M.~A.}
+\newblock Striving for simplicity: The all convolutional net.
+\newblock {\em CoRR abs/1412.6806\/} (2014).
+\newblock Available online on \url{arxiv.org/abs/1412.6806}.
+
+\bibitem{Srivastava2014}
+{\sc Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and
+  Salakhutdinov, R.}
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock {\em Journal of Machine Learning Research 15\/} (2014), 1929--1958.
+
+\bibitem{Szegedy2014}
+{\sc Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D.,
+  Erhan, D., Vanhoucke, V., and Rabinovich, A.}
+\newblock Going deeper with convolutions.
+\newblock {\em CoRR abs/1409.4842\/} (2014).
+\newblock Available online on \url{http://arxiv.org/abs/1409.4842}.
+
+\bibitem{Tagliafico2016}
+{\sc Tagliafico, A.~S., Calabrese, M., Mariscotti, G., Durando, M., Tosto, S.,
+  Monetti, F., Airaldi, S., Bignotti, B., Nori, J., Bagni, A., Signori, A.,
+  Sormani, M.~P., and Houssami, N.}
+\newblock Adjunct screening with tomosynthesis or ultrasound in women with
+  mammography-negative dense breasts: Interim report of a prospective
+  comparative trial.
+\newblock {\em Journal of Clinical Oncology\/} (2016).
+
+\bibitem{Taigman2014}
+{\sc Taigman, Y., Yang, M., Ranzato, M., and Wolf, L.}
+\newblock {DeepFace}: Closing the gap to human-level performance in face
+  verification.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR)\/} (Columbus,
+  Ohio, June 2014).
+
+\bibitem{Tang2009}
+{\sc Tang, J., Rangayyan, R., Xu, J., El~Naqa, I., and Yang, Y.}
+\newblock Computer-aided detection and diagnosis of breast cancer with
+  mammography: Recent advances.
+\newblock {\em Information Technology in Biomedicine, IEEE Transactions on 13},
+  2 (March 2009), 236--251.
+
+\bibitem{Wei1995}
+{\sc Wei, D., Sahiner, B., Chan, H.-P., and Petrick, N.}
+\newblock Detection of masses on mammograms using a convolution neural network.
+\newblock In {\em International Conference on Acoustics, Speech, and Signal
+  Processing, 1995. ICASSP-95.\/} (May 1995), vol.~5, pp.~3483--3486.
+
+\bibitem{Werbos1974}
+{\sc Werbos, P.~J.}
+\newblock {\em Beyond regression: new tools for prediction and analysis in the
+  behavioral sciences}.
+\newblock PhD thesis, Harvard University, Boston, MA, 1974.
+
+\bibitem{Widrow1960}
+{\sc Widrow, B., and Hoff, M.~E.}
+\newblock Adaptive switching circuits.
+\newblock In {\em 1960 {IRE} {WESCON} Convention Record, Part 4\/} (New York,
+  1960), {IRE}, pp.~96--104.
+
+\bibitem{Xu2015}
+{\sc Xu, B., Wang, N., Chen, T., and Li, M.}
+\newblock Empirical evaluation of rectified activations in convolutional
+  network.
+\newblock {\em CoRR abs/1505.00853\/} (2015).
+\newblock Available online on \url{arxiv.org/abs/1505.00853}.
+
+\bibitem{Yu2016}
+{\sc Yu, F., and Koltun, V.}
+\newblock Multi-scale context aggregation by dilated convolutions.
+\newblock {\em CoRR abs/1511.07122\/} (2016).
+\newblock Available online on \url{arxiv.org/abs/1511.07122}.
+
+\end{thebibliography}

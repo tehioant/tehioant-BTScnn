@@ -1,0 +1,112 @@
+Here I document each decision taken and its possible alternatives. The first one
+is the one I took, the others are ordered according to what I believe would be 
+the next best.
+
+-- Data set
+Lesions
+	Masses
+	Calcifications and microcalcifications
+Mammograms
+	Digital from BCDR
+	Film from DDSM
+Division
+	75% training, 10% val, 15% test
+	70% training, 15% val, 15% test  (return 3,78,305 and 306)	
+	70% training, 10% val, 20% test
+Enhancement
+	Global background reduction + contrast stretching
+	Global contrast stretching/No enhancement	
+	Local contrast stretching
+	local background reduction + contrast
+Image size
+	Reduced for 2cm to fit into 112 x 112 pixels (or as many pixels as the input 			volume to the network). Train on entire images
+	Cut 112 x 112 patches (or as many pixels as the input volume) equivalent to
+		2cm x 2cm. Roughly 1M patches. This will take advantage of smaller mini-
+		batches/ more frequent updates, batchnorm and less memory use (bigger 
+		input volume and newer architectures could be used).
+Downsampling interpolation (images and labels)
+	LANCZOS filter from PILLOW
+	BICUBIC filter form PILLOW
+Cropping
+	Cropping to breast area to not have lots of black space (smaller images)
+	No cropping
+Augmentation
+	Flipped and rotations 0,90,180,270 (8). Test set not augmented
+	Flipped and rotations 0,180 (4). Test set not augmented
+Storage
+	Store all augmented images and its augmented labels
+	Store originals and sample an image and a data augmentation for every 
+		training batch
+Label storage
+	Store one version at same size than downsampled image (~1100x1100) and one
+		version that matches dimension of output of the network (~70x70)
+	Only keep the big version (further downsampling can be done during training)
+Folders
+	Mammograms and their augmentations in the same folders and create list with
+		all their names (180x8 names). Labels names are generated with suffix
+
+--Model
+ConvNet architecture
+	VGG-like starting at 112 (2.9M parameters) (arch #27)
+	ResNet-like 1-2-4-1 architecture (0.9M parameters) (arch #25)
+	ResNet-like with 1-3-5-2 architecture (1.4M parameters) (arch #24)
+	ResNet-like 1-2-4-1 architecture with bottleneck (0.3M parameters) (arch #25)
+	VGG-like starting at 112 with bottleneck (1M parameters) (arch#27)
+Modern features/trends not adopted
+	Bottleneck architecture (reduces parameters by a factor of 0.36 but augments
+		memory requirements by a factor of 1.5)
+	7x7 average pooling filters instead of fully connected
+	3x3/4x4 conv filters, stride 2, padding 1, to get rid of pooling
+	Replace pooling with dilated convolutions (in further convolutions)
+	deeper architecture
+	more feature maps 
+	no dropout (just batchnorm)
+	normalization propagation (instead of batchnorm and dropout)
+Upsampling
+	Upsample the produced output with bilinear interpolation at end of network. I 
+		would like to use bicubic but gradient is not implemented in tensorflow
+	Upsample the produced output with deconvolutional layer at end of network
+	Downsample the labels (PILLOW Image.NEAREST)
+Last layer activation
+	Sigmoid
+	2-way Softmax
+Loss function
+	Logistic loss averaged over breast area only
+	Logistic loss summed over breast area only
+	Hinge/SVM loss averaged over breast area only
+
+--Training
+Local zero-mean center each image
+	Before training (subtract the mean intensity across the preprocessed image)
+	Leave as is
+Activation function
+	LeakyRelu
+	ReLu
+Update Rule
+	Adam
+	NAG
+Pooling
+	Non-overlapping max-pooling
+	Convolutional overlapping pooling (3x3 pooling, stride 2, padding 1.5/1)
+	Overlapping max-pooling
+First layer Conv-Pooling
+	6x6 filter stride 2 padding 2
+	5x5 filter stride 2 padding 1.5/2
+	4x4 filter stride 2 padding 1
+Batch size
+	One entire image per batch
+	As many as memory supports
+Regularization
+	Dropout + BatchNorm + Regularization
+Software
+	Tensorflow
+	Keras
+Learning rate
+	Biggest not causing divergence and halve when converged
+
+---Post-processing
+Post-processing
+	?
+Evaluation metric
+	IOU
+	F1-score
